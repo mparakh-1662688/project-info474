@@ -81,8 +81,8 @@
             // selectedGroup = selectedGroup.slice(0[,2]);
             console.log(1,selectedGroup)
             let a, b;
-            if ("[30-80]" === selectedGroup) { a = 30, b = 80};
-            if ("[80-130]" === selectedGroup) { a = 80, b = 130};
+            if ("[0.3-0.8]" === selectedGroup) { a = 30, b = 80};
+            if ("[0.8-1.3]" === selectedGroup) { a = 80, b = 130};
             // if ("[100-150]" === selectedGroup) { a = 100, b = 150};
             a = a * 0.01;
             b =  b * 0.01;
