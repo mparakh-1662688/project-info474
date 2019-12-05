@@ -33,7 +33,7 @@
         let countryR = [];
         countryR.push(temp);
         for (let i = 30; i < Country.length; i+=50) {
-            countryR.push( "[" + i + "-" + (i + 50) + "]");
+            countryR.push( "[" + i*0.01 + "-" + (i + 50)*0.01 + "]");
             console.log(3,countryR)
         }
         const eachYear = function(d) {
